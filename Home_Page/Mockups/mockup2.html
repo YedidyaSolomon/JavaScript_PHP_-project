@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mockup2.css">
+</head>
+<body id="body">
+    <button onclick="create()">Create</button>
+    <button onclick="delete1()">Delete</button>
+    <div id="badge1">
+    </div>
+   
+</body>
+</html>
+
+<script>
+
+
+    var badge=document.getElementById('badge1')
+
+function create(){
+    var area=document.createElement('div')
+    area.className='area'
+    area.style.backgroundImage="url(pexels-joaquin-carfagna-18111363.jpg)"
+    badge.appendChild(area)
+    var details=document.createElement('div')
+    details.className='white'
+    area.appendChild(details)
+    var text1=document.createTextNode('text');
+    details.appendChild(text1);
+
+}
+ function delete1(){
+    var fele=badge.firstElementChild;
+    badge.removeChild(fele);
+
+ }
+
+ var boxes = document.querySelectorAll('.area');
+Array.from(boxes).forEach(box => {
+  box.addEventListener('click', function(e) {
+    console.log(e.target)
+    
+  });
+});
+ 
+ function f(){
+    area.style.display='none'
+ }
+
+
+</script>

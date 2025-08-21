@@ -1,0 +1,218 @@
+*{
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin Thin';
+}
+
+body{
+    background-image: linear-gradient(90deg,purple,rgb(176, 5, 176),#49BEF9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignIn{
+    margin-top: 60px;
+    width: 50rem;
+    height: 35rem;
+    background: #49BEF9;
+    border-radius: 20px;
+    display: flex;
+    z-index: 0;
+    
+}
+.SignIn .SignInInfo{
+    margin-top: 0;
+    width: 35%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+.SignIn .SignInInfo .SignInlogo{
+    width: 10rem;
+    height: 10rem;
+    margin-left:-10px ;
+}
+
+.SignIn .SignInInfo .Typewriter{
+    width: 20rem;
+    height: 35rem;
+    margin-top: -140px;
+    margin-left: 40px;
+}
+.SignIn .SignInInfo p{
+    margin-top: -60px;
+padding-left: 25px;
+padding-right: 5px;
+}
+
+.SignIn #SIForm{
+    width: 65%;
+    height: 100%;
+    border-radius: 20px ;
+    background-color: white;
+    z-index:-1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+    padding-right: 88px;
+    
+    
+}
+
+#loginError{
+    color: white; 
+    background:red;
+    position:relative;
+    top:100px;border-radius:50px
+    ;text-align:center;
+    visibility: hidden;
+}
+
+.SignIn #SIForm h2{
+    margin-top: 100px;
+}
+
+
+
+
+.SignIn #SIForm .EmailSpan{
+    width: 45px;
+    margin-top: 20px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    background-color: white;
+    padding-left: 5px;
+}
+.SignIn #SIForm .PasswordSpan{
+    width: 120px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    background-color: white;
+    padding-left: 5px;
+}
+
+
+.SignIn #SIForm #SIEmail{
+    width: 26.1rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.SignIn #SIForm #SIPassword{
+    width: 26.1rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+.SignIn #SIForm #SISubmit{
+    width: 27rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #49BEF9;
+    margin-top: 20px;
+    border: none;
+    font-weight: 900;
+
+}
+
+.SignIn #SIForm #SISubmit:hover{
+    background-color: black;
+    color: white;
+}
+
+p{
+    color: white;
+    font-weight: 500;
+}
+
+.footer *{
+    /* border:1px solid white; */
+}
+.footer{
+    width: 83.5rem;
+    height:22.4375rem;
+    background-color: black;
+    margin-top: 210px;
+    padding: 0px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .fsec1{
+    width: 450px;
+ 
+}
+
+.footer .fsec1 .fsec1Par{
+    color: #FFF;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 450px;
+}
+.footer .fsec1 .fsec1Par .fsecspan1{
+    color: red;
+}
+.footer .fsec1 .fsec1Par .fsecspan2{
+    color:#49BEF9;
+}
+
+.footer .fsec1 .fsec1button{
+    line-height: 0;
+    width:8.225rem;
+    height: 3.375rem;
+    color: black;
+    font-size: 26px;
+    color: white;
+    font-weight: 800; 
+    background: #49BEF9;
+    border: 0; 
+    margin-top: 10px;
+    transition-duration: 200ms;
+}
+.footer .fsec1 .fsec1button:hover{
+    box-shadow: 0 0 10px #49BEF9;
+}
+
+.footer .fsec2{
+    width: 300px;
+}
+
+.footer .fsec2 .fsec2Icons{
+    width: 140px;
+    margin-top: 55px;
+    margin-left: 100px;
+    
+}
+
+.footer .fsec2 .fsec2Icons a{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer .fsec2 a img{
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+}
+
+.footer .fsec2 .agreements{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    margin-top: 150px;
+    margin-left: 18px;
+}

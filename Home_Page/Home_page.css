@@ -1,0 +1,683 @@
+*{
+    /* border: 1px solid white; */
+    font-family: 'Libre Franklin Thin';
+    /* filter: blur(2px); */
+}
+body{
+    margin: 0;
+    position: relative;
+    /* height: 100%;
+    overflow: hidden; */
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.Wrapper1{
+    background-image: url('Images/flat-lay-workstation-with-copy-space-laptop\ \(1\)\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Head1{
+    /* position: fixed; */ /*this is uncommented along the .Head1.hover action*/
+    flex: 1;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height:5%;
+    display: flex;
+    /* position: fixed;
+    top: 0px;
+    filter: opacity(0.5); */
+}
+/* .Head1:hover{
+    background-color: black;
+    height: 150px;
+    z-index: 1;
+    filter: opacity(1);
+} */
+
+.Wrapper1 .Head1 .W1_Header{
+    flex: 2;
+}
+
+.Wrapper1 .Head1 .Logo{
+    width: 20rem;
+}
+
+.W1_Nav{
+    flex: 1;
+    background-color: white;
+    height: 4rem;
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+    border-radius: 1.25rem;
+    transition-duration: 500ms;
+    filter: opacity(0.8);
+    
+}
+
+.W1_Nav:hover{
+    filter: opacity(1);
+}
+
+.W1_Nav .W1_Nav_Ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.W1_Nav .W1_Nav_Ul a{
+    filter: opacity(1);
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 800; 
+    font-family: 'Saira Condensed';
+    
+}
+
+
+
+.W1_Nav .W1_Nav_Ul a:hover{
+    color:  #49BEF9;
+}
+
+
+.Join_button{
+   
+    line-height: 0;
+    position: relative;
+    top: -5px;
+    width:4.225rem;
+    height: 2.375rem;
+    color: black;
+    font-size: 21px;
+    color: white;
+    font-weight: 800; 
+    background: #49BEF9;
+    border: 0; 
+    transition-duration: 200ms;
+    font-family: 'Saira Condensed';
+}
+
+.Join ul{
+    background-color: white;
+    list-style: none;
+    padding: 20px 0px 0 4px;
+    line-height: 30px;
+    position: relative;
+    font-weight: 900;
+    display: none;
+    /* right: 20px; */
+    
+}
+
+.Join:hover .Submenu{
+    display: block;
+}
+
+.Submenu li:hover {
+    text-decoration: underline #49BEF9;
+    /* color: white; */
+}
+
+.Join_button:hover{
+    box-shadow: 0 0 10px #49BEF9;
+}
+
+.Head2{
+    flex: 3;
+    margin-top: -200;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Head2 .W1_Par{
+color: white;
+font-size: 2rem;
+font-weight: 700;
+width: 600px;
+}
+
+.Head2 .W1_Par span{
+    color: #49BEF9;
+}
+
+
+.Head2 .W1SearchBar{
+    display: flex;
+}
+
+
+
+.Head2 .W1SearchBar .W1_Input{
+    font-size:1.25rem; ;
+    border: none;
+    width: 33.5625rem;
+    height: 3.2rem;
+    border-top-left-radius: 1.5625rem;
+    border-bottom-left-radius: 1.5625rem;
+    margin-left:-20px ;
+    margin-right: 0px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.Head2 .W1SearchBar .W1_Button{
+    border: none;
+    width: 4.75rem;
+    height: 3.2rem;
+    background: #49BEF9;
+    border-top-right-radius: 1.5625rem;
+    border-bottom-right-radius: 1.5625rem;
+    transition-duration:300ms ;
+   
+}
+
+.Head2 .W1SearchBar .W1_Button:hover{
+    background-color: black;
+
+}
+
+.Head2 .W1SearchBar .W1_Button:hover img{
+    filter: invert();
+
+}
+
+.Head2 .W1SearchBar .W1_Button img{
+    width: 1.5rem;
+    height: 1.5rem;
+    transition-duration: 300ms;
+}
+
+.Head2 .W1_PopularOptions {
+    /* line-height: 10px; */
+    gap: 10px;
+    width: 39.5625rem;
+    
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.Head2 .W1_PopularOptions .W1_popular {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: white;
+}
+.Head2 .W1_PopularOptions .W1_span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 6px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    color: white;
+    border: 2px solid #49BEF9;
+    border-radius: 1.875rem;
+    top: -5px;
+    transition-duration: 300ms;
+}
+
+.Head2 .W1_PopularOptions .W1_span:hover{
+    box-shadow: 0px 0px 20px #49BEF9;;
+}
+
+.Wrapper2{
+    padding: 100px;
+    padding-top: 50px;
+    /* width:%; */
+    height:32.7rem;
+    background-color: #49BEF9;
+}
+.Wrapper2 span{
+    
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    padding: 60px;
+    flex-shrink: 0;
+
+}
+
+.W2_PopularServices{
+    
+    margin-top: 30px;
+    padding-left: 0px;
+    /* width: 650px; */
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.W2_PS1{
+    
+    margin-top:20px ;
+    position: relative;
+    width: 14.625rem;
+    height: 23.625rem;
+    border-radius: 1.875rem;
+    background-color: aliceblue;
+    overflow: hidden;
+    box-shadow: 0px 1px 4px gray;
+    transition-duration: 500ms;
+   
+}
+
+
+
+.PSimg{
+    /* position: sticky;
+    right: 0; */
+    filter: brightness(0.5);
+    width: 14.625rem;
+    height: 23.625rem;
+    transition-duration: 500ms;
+}
+
+.W2_PopularServices .PSspan1{
+     
+    padding-left: 10px;
+    padding-top: 25px;
+    position:absolute;
+    top: 0;
+    color: white;
+    /* color: black; */
+    font-weight: 900;
+    font-size: 1.25rem;
+    font-family: 'Libre Franklin Thin';
+    transition-duration: 500ms;
+}
+
+.W2_PopularServices .W2_IconPrevious{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 180px;
+}
+
+.W2_PopularServices .W2_IconPrevious:hover{
+
+    filter: opacity(0.6);
+}
+
+.W2_PopularServices .W2_IconNext{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 180px;
+}
+
+.W2_PopularServices .W2_IconNext:hover{
+
+    filter: opacity(0.6);
+}
+.W2_PS1:hover{
+    transform: scale(1.1,1.1);
+}
+.mock{
+    font-size: 250px;
+    text-align: center;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    display: none;
+}
+
+/* .open-mock{
+    display: inline;
+    cursor: pointer;
+} */
+
+
+
+
+
+.Sign_inMain{
+    position: absolute;
+    top: 100px;
+    display: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.signin{
+    
+    
+     
+    border: #000;
+    display: flex;
+    width: 800px;
+    height: 500px;
+    font-family: 'Libre Franklin Thin';
+    font-size: 10px;
+    outline: none;
+    color: white;
+    border-radius: 15px;
+}
+
+.signin *{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin Thin';
+    font-size: 15px;
+    outline: none;
+    color: white;
+}
+
+.signin > .Signin_img{
+    width: 530px;
+   height:500px ;
+   /* size: 10px 10px; */
+   border-radius: 15px 0px 0px 15px;
+   
+}
+
+.signin >.signin_inputs{
+    width: 580px;
+    padding: 10px 10px 10px 35px ;
+    background: #2B2A2A;
+    border-radius: 0px 15px 15px 0px;
+}
+.signin >.signin_inputs > .inputs_back {
+
+display: flex;
+gap: 14px;
+margin-top: 10px;
+
+}
+.signin >.signin_inputs > .inputs_back> .back_button{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 21px;
+    height: 17px;
+    border-radius: 5.8px;
+    border: none;
+    background: #49BEF9;
+}
+.signin >.signin_inputs > .inputs_back> .back_button > .back_icon{
+    /* background-position-x: ; */
+    width: 21px;
+    height: 17px;
+}
+
+.signin >.signin_inputs > .inputs_back> .back_text{
+    font-family: 'Libre Franklin Medium';
+    font-weight: 800;
+}
+
+.signin > .signin_inputs > .input_header{
+    font-family: 'Libre Franklin Medium';
+    margin-top: 24px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+.signin >.signin_inputs > .input_identity{
+
+    font-family: 'Libre Franklin Medium';
+    font-weight: 200;
+    margin-bottom: 3px;    
+
+}
+.signin >.signin_inputs > .input_identityenter{
+    
+    width: 360px;
+    height: 41px;
+    font-size:  15px ;
+    margin-bottom: 21px;    
+    color: #000;
+    border-radius: 14px;
+
+}
+.signin >.signin_inputs > .input_password{
+
+    font-family: 'Libre Franklin Medium';
+    font-weight: 200;
+    margin-bottom: 3px;    
+
+}
+.signin >.signin_inputs > .input_passwordenter{
+    color: black;
+    width: 360px;
+    height: 41px;
+    font-size:  15px ;
+    margin-bottom: 16px;    
+    border-radius: 14px;
+    
+
+}
+.signin >.signin_inputs > .input_submitbutton{
+  
+    margin-top: 49px;
+    margin-left: 120px;
+    background: #49BEF9;
+    color: #000;
+    border: none;
+    border-radius:5px ;
+    font-family: 'Libre Franklin Medium';
+    font-weight: 700;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+
+
+}
+
+.open_Signin_page{
+    display: flex;
+}
+
+.blur_wrapper{
+    filter: blur(5px);
+}
+.body_unscroll{
+    height: 100%;
+    overflow: hidden;
+}
+
+.footer *{
+    /* border:1px solid white; */
+    font-family: 'Saira Condensed';
+}
+.footer{
+    width: 83.5rem;
+    height:22.4375rem;
+    background-color: black;
+    /* margin-top: 210px; */
+    padding: 0px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .fsec1{
+    width: 450px;
+ 
+}
+
+.footer .fsec1 .fsec1Par{
+    color: #FFF;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 450px;
+}
+.footer .fsec1 .fsec1Par .fsecspan1{
+    color: red;
+}
+.footer .fsec1 .fsec1Par .fsecspan2{
+    color:#49BEF9;
+}
+
+.footer .fsec1 .fsec1button{
+    line-height: 0;
+    width:8.225rem;
+    height: 3.375rem;
+    color: black;
+    font-size: 26px;
+    color: white;
+    font-weight: 800; 
+    background: #49BEF9;
+    border: 0; 
+    margin-top: 10px;
+    transition-duration: 200ms;
+}
+.footer .fsec1 .fsec1button:hover{
+    box-shadow: 0 0 10px #49BEF9;
+}
+
+.footer .fsec2{
+    width: 300px;
+}
+
+.footer .fsec2 .fsec2Icons{
+    width: 140px;
+    margin-top: 55px;
+    margin-left: 100px;
+    
+}
+
+.footer .fsec2 .fsec2Icons a{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer .fsec2 a img{
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+}
+
+.footer .fsec2 .agreements{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    margin-top: 150px;
+    margin-left: 18px;
+}
+
+
+@media(max-width:1250px){
+    
+    .W1_Header{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+    .Head1{
+        flex-direction: column;
+    }
+    .W1_Nav{
+        margin-top: -100px;
+        margin-left: 0px;
+        height: 4rem;
+        width: 97.5%;
+        border-radius: 0;
+    }
+    .W1_Nav_Ul{
+        align-items: center;
+    }
+
+    .W1_Nav_Ul li{
+        line-height: 55px;
+        /* border: 1px solid; */
+        padding: 0;
+    }
+
+    .W1_Nav_Ul .Join ul{
+        line-height: 55px;
+        position: absolute;
+        padding: 10px;
+        right: 130px;
+       
+    }
+
+    .Join_button{
+        position: initial;
+    }
+
+    .Wrapper2{
+        padding: 0;
+        padding-top: 100px;
+    }
+    .W2_PopularServices{
+        margin: 0px;
+        margin-top: 30px;
+        padding: 0px;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .W2_PS1{
+    
+        margin-top:20px ;
+        position: relative;
+        width: 10.625rem;
+        height: 14.625rem;
+        border-radius: 1.875rem;
+        background-color: aliceblue;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px gray;
+        
+       
+    }
+    
+    .PSimg{
+        filter: brightness(0.5);
+        width: 10.625rem;
+        height: 14.625rem;
+    }
+
+    .W2_PopularServices .W2_IconPrevious{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 90px;
+    }
+    .W2_PopularServices .W2_IconNext{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 90px;
+    }
+
+    .W2_IconNext,.W2_IconPrevious{
+        transform: scale(0.5);
+    }
+    .W2_PopularServices .PSspan1{
+        font-size: medium;
+    }
+}
+
+@media(max-width:854px){
+    .Sign_inMain{
+        transform: scale(0.7);
+    }
+}

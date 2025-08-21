@@ -1,0 +1,565 @@
+*{
+    /* border: 1px solid aqua; */
+    font-family: 'Saira Condensed';
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 395.625rem;;
+    background-color: #E8E7E8;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.Header{
+    width: 96rem;
+    height: 37.125rem;
+    flex-shrink: 0;
+    background-image:linear-gradient(90deg, black,black,transparent,transparent,transparent),
+    url('AboutImages/pexels-ozan-çulha-18675730.jpg');
+    background-size: 1100px 1600px;
+    background-position-x: 27.5rem;
+    background-position-y: -465px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-bottom: 0;
+     
+}
+
+.anglediv1{
+    
+    border-left: 1537px solid transparent;
+    border-bottom: 100px solid #E8E7E8;
+    position: absolute;
+    top: 30.9rem;
+    z-index: 0;
+}
+
+.LogoNav{
+    width: 96rem;
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.Logo{
+    
+}
+
+.Nav_Ul li a:hover{
+    color:  #49BEF9;
+}
+
+
+
+.PageNavigation{
+    width: 490px;
+    background-color: white;
+    height: 4rem;
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+    border-radius: 1.25rem;
+    transition-duration: 500ms;
+    filter: opacity(0.8);
+}
+
+.Nav_Ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+    margin-top:-0.1px ;
+    padding-top: 10;
+    height: 3rem;
+}
+
+.Nav_Ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 800; 
+    
+}
+
+.Join_button{
+  
+
+    line-height: 0;
+    width:4.225rem;
+    height: 2.375rem;
+    color: black;
+    font-size: 21px;
+    color: white;
+    font-weight: 800; 
+    background: #49BEF9;
+    border: 0; 
+    transition-duration: 500ms;
+    font-family: 'Saira Condensed';
+    /* margin-top: 100px; */
+    border: 1px solid;
+    
+    
+    
+}
+
+.Join ul{
+
+    background-color: white;
+    list-style: none;
+    padding: 20px 0px 0 4px;
+    line-height: 30px;
+    position: relative;
+    font-weight: 900;
+    display: none;
+    /* border: 1px solid; */
+    /* top:43px; */
+    /* right: 20px; */
+    
+}
+
+.Join:hover .Submenu{
+    display: block;
+}
+
+.Submenu li:hover {
+    text-decoration: underline #49BEF9;
+    /* color: white; */
+}
+
+
+.Nav_Ul .Join{
+    /* transition-duration: 200ms; */
+}
+
+.Nav_Ul .Join:hover{
+    margin-top: 83px;
+}
+
+.Nav_Ul .Join:hover .Join_button{
+    /* margin-top: 100px; */
+}
+
+.Moto{
+    /* border: #49BEF9 solid; */
+    width: 40rem;
+    color: #FFF;
+    font-size: 8rem;
+    font-style: normal;
+    font-family: 'Saira Condensed';
+    font-weight: 400;
+    line-height: 7.5rem; /* 92.308% */
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 0;
+    padding-left:70px ;
+    margin-top: -70;
+}
+
+.Moto span{
+    font-weight: 900;
+    font-family: 'Saira Condensed';
+    color: #49BEF9;
+}
+
+.SectionNavigation{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    top:-20px;
+    left: 500px;
+    gap: 60px;
+    height: 8.125rem;
+    width: 34.375rem;;
+}
+
+.SectionNavigation div {
+    margin-top: 20px;
+}
+
+.SectionNavigation div img{
+    padding-left: 2px;
+}
+
+.SectionNavigation a{
+    text-decoration: none;
+    color: #49BEF9;
+    font-weight: 900;
+}
+
+.SectionNavigation div p{
+    text-align: start;
+}
+
+.SectionNavigation .ThirdSec p{
+    margin-left: -10;
+}
+.SectionNavigation{
+    box-shadow: 0px 26px 45.5px #49BEF9;
+    
+}
+
+.SectionNavigation a{
+    transition-duration: 500ms;
+}
+.SectionNavigation a:hover{
+    transform: scale(1.1);
+}
+
+#OurTeamSection{
+    margin: 150px;
+    margin-top: 250px;
+    margin-bottom: 30;
+    transition-duration: 500ms;
+}
+
+#OurTeamSection .OTTitleUnit{
+    display: flex;
+    gap: 17px;
+}
+
+#OurTeamSection .OTTitleUnit .OTRec{
+    width: 7px;
+    height: 42px;
+    background-color: #49BEF9;
+    margin-top: 76px;
+}
+
+#OurTeamSection .OTTitleUnit .OTHeader{
+    font-size: 60px;
+}
+
+
+#OurTeamSection *{
+    /* border: 1px solid aqua; */
+}
+#OurTeamSection .OTFirstImage{
+
+    margin-top: -30px;
+    width: 77.15rem;
+    height: 49.5rem;;
+    background-color: aquamarine;
+    background-image: url('AboutImages/pexels-fox-1595385.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#OurTeamSection .OTPar{
+    margin: 5.94rem;
+    margin-top: 4.06rem;
+    font-size: 1.1rem;
+
+}
+
+#OurTeamSection .OTPar .OTSecondPar{
+
+    margin-bottom: 5.5rem;
+
+}
+
+#OurTeamSection .OTPar .Members{
+    
+    width:74rem;
+    font-size: 9rem;
+    color: #49BEF9;
+    font-weight: 900;
+    line-height: 140px;
+    
+}
+
+
+#OurTeamSection .OTPar .OTThirdPar{
+    margin-top: 5.5rem;
+    font-size: 1.1rem;
+}
+#OurTeamSection .OTPar .OTThirdPar span{
+    color: #49BEF9;
+    
+}
+
+#OurTeamSection .groupofimages{
+
+    margin-top: -30px;
+    width: 77.15rem;
+    height: 49.5rem;;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-areas: 'image1 image1 image2'
+                         'image3 image4 image2'
+                         ;
+
+}
+/* 
+#OurTeamSection .groupofimages img{
+    width: 100px;
+    height: 100px;
+} */
+
+#OurTeamSection .groupofimages .image1{
+    grid-area: image1; 
+    width: 41rem; 
+    height: 23.75rem;
+}
+#OurTeamSection .groupofimages .image2{
+    grid-area: image2; 
+    width: 32.4375rem; 
+    height: 44.7rem;
+}
+#OurTeamSection .groupofimages .image3{
+    grid-area: image3; 
+    width: 22.5rem; 
+    height: 16.1875rem;
+}
+#OurTeamSection .groupofimages .image4{
+    grid-area: image4; 
+    width: 16.5625rem; 
+    height: 16.1875rem;
+    background-color: black;
+}
+
+
+
+
+#OurGoalsSection *{
+    /* border: 1px solid aqua; */
+}
+
+#OurGoalsSection{
+    margin: 150px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    transition-duration: 500ms;
+}
+
+#OurGoalsSection .OGParagraphUnit{
+    margin-top: 200px;
+}
+
+#OurGoalsSection .OGTitleUnit{
+    display: flex;
+    gap: 17px;
+}
+
+#OurGoalsSection .OGTitleUnit .OGRec{
+
+    width: 7px;
+    height: 42px;
+    background-color: #49BEF9;
+    margin-top: 86px;
+}
+
+#OurGoalsSection .OGTitleUnit .OGHeader{
+    font-size: 60px;
+}
+
+#OurGoalsSection .OGParagraphUnit .OGPar{
+width: 500px;
+margin-top: -30;
+}
+
+#OurGoalsSection .OGParagraphUnit .OGJoin{
+  
+
+    line-height: 0;
+    width:8.225rem;
+    height: 3.375rem;
+    color: black;
+    font-size: 26px;
+    color: white;
+    font-weight: 800; 
+    background: #49BEF9;
+    border: 0; 
+    margin-top: 10px;
+    transition-duration: 200ms;
+    
+}
+
+#OurGoalsSection .OGParagraphUnit .OGJoin:hover{
+    box-shadow: 0 0 10px #49BEF9;
+}
+
+#OurGoalsSection .OGIMg{
+
+    width: 37.375rem;
+    height: 57.9375rem;
+
+}
+
+#HowItWorksSection .HIWimage{
+
+    background-color: aqua;
+    width: 500;
+    height: 600;
+    background-image: url(pexels-ozan-çulha-18675730.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 600px;
+}
+
+/* #HowItWorksSection *{
+    border:1px solid red;
+} */
+
+#HowItWorksSection .HIWTitleUnit{
+    display: flex;
+    gap: 17px;
+    margin-bottom: 0;
+}
+
+#HowItWorksSection .HIWTitleUnit .HIWRec{
+    width: 7px;
+    height: 42px;
+    background-color: #49BEF9;
+    margin-top: 105px;
+}
+
+#HowItWorksSection .HIWTitleUnit .HIWHeader{
+
+    font-size: 60px;
+
+}
+
+#HowItWorksSection{
+    margin: 150px;
+    margin-top: -100px; 
+    padding: 0;
+    transition-duration: 500ms;
+}
+
+#HowItWorksSection .HIWImage{
+    margin-top: -60px;
+    width: 77.15rem;
+    height: 49.5rem;
+    background-image: url(AboutImages/pexels-fauxels-3183197.jpg);
+    background-size:77.15rem 49.5rem;
+
+}
+
+#HowItWorksSection .HIWAnglediv1{
+
+    width: 0;
+    border-left: 77.15rem solid transparent;
+    border-bottom: 20rem solid #49BEF9;
+    margin-top: -320.5;
+}
+#HowItWorksSection .HIWAnglediv2{
+    width: 0;
+    border-right: 77.15rem solid transparent;
+    border-bottom: 20rem solid #1E1E1E;
+    margin-top: -320.5;
+}
+
+#HowItWorksSection .HIWAnglediv3{
+    line-height: 40px;
+    width: 77.15rem;
+    height: 25.5rem;
+    font-size: 30px;
+    color: white;
+    background-color: #1E1E1E;
+}
+
+#HowItWorksSection .HIWAnglediv3 span{
+    position: relative;
+    top: -100px;
+    padding: 30px;
+    color: white;
+    font-size: 3.125rem;
+    font-weight: 900;
+}
+
+#HowItWorksSection .HIWAnglediv3 p{
+    position: relative;
+    top: -100;
+    padding: 30px;
+    font-size: 1.25rem;
+}
+
+.footer *{
+    /* border:1px solid white; */
+}
+.footer{
+    width: 83.5rem;
+    height:22.4375rem;
+    background-color: black;
+    margin-top: 210px;
+    padding: 0px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .fsec1{
+    width: 450px;
+ 
+}
+
+.footer .fsec1 .fsec1Par{
+    color: #FFF;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 450px;
+}
+.footer .fsec1 .fsec1Par .fsecspan1{
+    color: red;
+}
+.footer .fsec1 .fsec1Par .fsecspan2{
+    color:#49BEF9;
+}
+
+.footer .fsec1 .fsec1button{
+    line-height: 0;
+    width:8.225rem;
+    height: 3.375rem;
+    color: black;
+    font-size: 26px;
+    color: white;
+    font-weight: 800; 
+    background: #49BEF9;
+    border: 0; 
+    margin-top: 10px;
+    transition-duration: 200ms;
+}
+.footer .fsec1 .fsec1button:hover{
+    box-shadow: 0 0 10px #49BEF9;
+}
+
+.footer .fsec2{
+    width: 300px;
+}
+
+.footer .fsec2 .fsec2Icons{
+    width: 140px;
+    margin-top: 55px;
+    margin-left: 100px;
+    
+}
+
+.footer .fsec2 .fsec2Icons a{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer .fsec2 a img{
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+}
+
+.footer .fsec2 .agreements{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    margin-top: 150px;
+    margin-left: 18px;
+}

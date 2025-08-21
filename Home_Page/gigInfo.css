@@ -1,0 +1,556 @@
+*{
+    /* border: 1px solid black; */
+    font-family:  'Libre Franklin Thin';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Wrapper1{
+    
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #49BEF9;
+}
+
+.Head1{
+    /* position: fixed; */ /*this is uncommented along the .Head1.hover action*/
+    flex: 1;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height:5%;
+    display: flex;
+    /* position: fixed;
+    top: 0px;
+    filter: opacity(0.5); */
+}
+
+.Wrapper1 .Head1 .W1_Header{
+    flex: 2;
+}
+
+.Wrapper1 .Head1 .Logo{
+    width: 20rem;
+}
+
+.W1_Nav{
+    flex: 1;
+    background-color: white;
+    height: 4rem;
+    margin-right: 30px;
+    margin-top: 55px;
+    padding-right: 30px;
+    border-radius: 1.25rem;
+    transition-duration: 500ms;
+    filter: opacity(0.8);
+    
+}
+
+.W1_Nav:hover{
+    filter: opacity(1);
+}
+
+.W1_Nav .W1_Nav_Ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.W1_Nav .W1_Nav_Ul a{
+    filter: opacity(1);
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 800; 
+    font-family: 'Saira Condensed';
+    
+}
+
+
+
+.W1_Nav .W1_Nav_Ul a:hover{
+    color:  #49BEF9;
+}
+
+
+.Join_button{
+   
+    line-height: 0;
+    position: relative;
+    top: -5px;
+    width:4.225rem;
+    height: 2.375rem;
+    color: black;
+    font-size: 21px;
+    color: white;
+    font-weight: 800; 
+    background: #49BEF9;
+    border: 0; 
+    transition-duration: 200ms;
+    font-family: 'Saira Condensed';
+}
+
+.Join_button:hover{
+    box-shadow: 0 0 10px #49BEF9;
+}
+
+.Head2{
+    flex: 1;
+    /* margin-left: -420px; */
+    position: relative;
+    left:100px ;
+    top: 20px;
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+
+.Head2 .W1SearchBar{
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: -57px;
+    left:180px
+}
+
+
+
+.Head2 .W1SearchBar .W1_Input{
+    font-size:1rem; ;
+    border: none;
+    width: 23.5625rem;
+    height: 3.2rem;
+    border-top-left-radius: 1.5625rem;
+    border-bottom-left-radius: 1.5625rem;
+    margin-left:-20px ;
+    margin-right: 0px;
+    padding-left: 30px;
+    outline: none;
+}
+
+.Head2 .W1SearchBar .W1_Button{
+    border: none;
+    width: 4.75rem;
+    height: 3.33rem;
+    background: #49BEF9;
+    border-top-right-radius: 1.5625rem;
+    border-bottom-right-radius: 1.5625rem;
+    transition-duration:300ms ;
+    background-color: white;
+   
+}
+
+.Head2 .W1SearchBar .W1_Button:hover{
+    filter: invert();
+
+}
+
+.Head2 .W1SearchBar .W1_Button img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.link{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+#wrapper .item:hover{
+    box-shadow: 0px 0px 0px;
+}
+#wrapper .item:hover .description{
+    font-size: 15px;
+}
+.link:hover .details{
+    background-color: #49BEF9;
+}
+
+.description{
+    transition-duration: 300ms;
+}
+
+#wrapper{
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    background-color: white;
+    /* display: flex; */
+}
+
+#wrapper .item{
+    margin-top:-70px;
+    width:300px;
+    height:200px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px gray;
+    transition-duration:200ms ;
+}
+
+.item .details{
+    background-color: rgba(255, 255, 255, 0.913);
+    width:293px;
+    height:50px;
+    position: relative; 
+    top: 149.3px;
+    margin-top: 100px;
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 16px;
+    padding-left: 7px;
+    
+    
+}
+
+#gigInfo{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 34.5rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#gigDetails::-webkit-scrollbar{
+    display: none;
+}
+
+#gigDetails{
+    width: 50%;
+    height: 34.5rem;
+    margin-left: 50px;
+    /* background-color: red; */
+    overflow: scroll;
+}
+
+#mainHeader{
+    padding: 20px;
+}
+
+#mainHeader #firsth1{
+    margin-left: 10px;
+}
+
+#gigOwner{
+    display: flex;
+    flex-direction: row;
+    
+}
+#gigOwner #gigOwnerLogo{
+    background-color: #49BEF9;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: contain;
+}
+#gigOwner #gigOwnerTitle{
+    margin-left: 10px;
+    line-height: 10px;
+}
+#maindetails{
+    width: 100%;
+}
+
+
+#maindetails #prevpic{
+    position: relative;
+    right: 2%;
+    top:13.5rem ;
+    width: 45px;
+    height: 45px;
+    border-radius: 40%;
+    background-image: url('Images/before.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border: none;
+
+}
+
+#maindetails #nextpic{
+    position: relative;
+    left: 76%;
+    bottom:10.8rem ;
+    width: 45px;
+    height: 45px;
+    border-radius: 40%;
+    background-image: url('Images/next.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border: none;
+    
+}
+
+.slide_but:hover{
+    filter: grayscale(1);
+}
+
+
+
+
+
+#maindetails #gigpics{
+    /* border: 1px solid; */
+    margin-top: 20px;
+    background-color: white;
+    width:80%;
+    height:20rem ;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#maindetails #aboutGig{
+    margin-top: 20px;
+    /* background-color: #49BEF9; */
+    width: 80%;
+    /* height: 40rem; */
+}
+
+#ratingDetails{
+    padding: 30px;
+}
+
+#bar5{
+    width: 10rem;
+    height: .5rem;
+    background:rgb(215, 215, 215);
+    border-radius: 5px;
+    
+}
+
+#barcol5{
+    width: 5rem;
+    height: .5rem;
+    background-color: black;
+    border-radius: 5px;
+}
+#bar4{
+    width: 10rem;
+    height: .5rem;
+    background:rgb(215, 215, 215);
+    border-radius: 5px;
+    
+}
+
+#barcol4{
+    width: 5rem;
+    height: .5rem;
+    background-color: black;
+    border-radius: 5px;
+}
+#bar3{
+    width: 10rem;
+    height: .5rem;
+    background:rgb(215, 215, 215);
+    border-radius: 5px;
+    
+}
+
+#barcol3{
+    width: 5rem;
+    height: .5rem;
+    background-color: black;
+    border-radius: 5px;
+}
+#bar2{
+    width: 10rem;
+    height: .5rem;
+    background:rgb(215, 215, 215);
+    border-radius: 5px;
+    
+}
+
+#barcol2{
+    width: 5rem;
+    height: .5rem;
+    background-color: black;
+    border-radius: 5px;
+}
+#bar1{
+    width: 10rem;
+    height: .5rem;
+    background:rgb(215, 215, 215);
+    border-radius: 5px;
+    
+}
+
+#barcol1{
+    width: 5rem;
+    height: .5rem;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+#gigPriceOffers{
+    width: 40%;
+    height: 34.5rem;
+    /* background-color: green; */
+}
+
+#gigPriceOffers #priceContainor{
+    border: 1px solid rgb(183, 183, 183);
+    width: 70%;
+    height: 25rem;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#gigPriceOffers #priceContainor .priceOffersButtons{
+    display: flex;
+}
+
+#gigPriceOffers #priceContainor .priceOffersButtons button{
+    width:34%;
+    height:50px;
+    border: none;
+    border-right: 1px solid rgb(183, 183, 183);
+    border-bottom: 1px solid rgb(183, 183, 183);
+}
+
+#Basic{
+    background-color: black;
+    color:white;
+}
+
+#priceDetailsBasics #priceHeaderBasic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#priceDetailsBasics #priceHeaderBasic h4{
+    margin-left: 30px;
+}
+
+#priceDetailsBasics #priceHeaderBasic span{
+    margin-top:22px;
+    margin-right:30px;
+}
+
+#priceDetailsBasics main{
+    margin-left: 30px;
+}
+#priceDetailsBasics button{
+    margin-left: 30px;
+    width: 86%;
+    height: 40px;
+    font-size: 17px;
+    background-color: #49BEF9;
+    border: 0;
+    font-weight: 700;
+    transition: 200ms;
+}
+
+#priceDetailsBasics button:hover{
+    background-color: black;
+    color: white;
+}
+.priceDetailsMain p{
+    padding-right: 30px;
+    /* border: 1px solid; */
+}
+
+.footer *{
+    /* border:1px solid white; */
+    font-family: 'Saira Condensed';
+}
+.footer{
+    width: 83.5rem;
+    height:22.4375rem;
+    background-color: black;
+    margin-top: 0px;
+    padding: 0px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .fsec1{
+    width: 450px;
+ 
+}
+
+.footer .fsec1 .fsec1Par{
+    color: #FFF;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 450px;
+    font-family: 'Saira Condensed';
+}
+.footer .fsec1 .fsec1Par .fsecspan1{
+    color: red;
+}
+.footer .fsec1 .fsec1Par .fsecspan2{
+    color:#49BEF9;
+}
+
+.footer .fsec1 .fsec1button{
+    line-height: 0;
+    width:8.225rem;
+    height: 3.375rem;
+    color: black;
+    font-size: 26px;
+    color: white;
+    font-weight: 700; 
+    background: #49BEF9;
+    border: 0; 
+    margin-top: 10px;
+    transition-duration: 200ms;
+}
+.footer .fsec1 .fsec1button:hover{
+    box-shadow: 0 0 10px #49BEF9;
+}
+
+.footer .fsec2{
+    width: 300px;
+}
+
+.footer .fsec2 .fsec2Icons{
+    width: 140px;
+    margin-top: 55px;
+    margin-left: 100px;
+    
+}
+
+.footer .fsec2 .fsec2Icons a{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer .fsec2 a img{
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+}
+
+.footer .fsec2 .agreements{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    margin-top: 150px;
+    margin-left: 18px;
+}
